@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #main-body{
     width: 100%;
 }
@@ -5,13 +8,15 @@ div.door-container{
     width:80%;
     height:(100-70)vh;
     margin: 8% auto;
+    
     /* border:1px solid black; */
     display: flex; 
     padding: 0 5vw;   
 }
 div.door{
     width:30%;
-    margin:3%;
+    margin:2%;
+    overflow: hidden;
     display:flex;
     flex-direction: column ;
     align-items: center;
@@ -32,9 +37,15 @@ button#reveal{
     display: block;
     width: 30vw;
     height: min(5vh,150px);
-    margin:100px auto;
+    margin:0px auto;
 }
 #message{
     display: block;
     text-align: center;
+}
+button.start-exp{
+    display: block;
+    margin:0px auto;
+    width:150px;
+    height:100px;
 }

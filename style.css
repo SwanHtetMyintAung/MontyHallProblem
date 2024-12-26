@@ -43,9 +43,3 @@ button#reveal{
     display: block;
     text-align: center;
 }
-button.start-exp{
-    display: block;
-    margin:0px auto;
-    width:150px;
-    height:100px;
-}
